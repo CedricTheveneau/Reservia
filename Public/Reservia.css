@@ -97,9 +97,16 @@ header {
   color: black;
 }
 
-.Bouton-Search {
+#Marseille {
+  border: 2px solid #f2f2f2;
+  font-weight: bold;
+  color: black;
+}
+
+#Bouton-Search {
   max-height: 35px;
   max-width: 80px;
+  background-color: #0065fc;
 }
 
 h3 {
