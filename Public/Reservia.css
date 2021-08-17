@@ -12,9 +12,12 @@ img {
 }
 
 header {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #Titre {
@@ -23,28 +26,37 @@ header {
 
 #Nav {
   max-width: 50%;
-  text-align: center;
-}
-
-nav {
-  display: flex;
-  color: black;
-  text-decoration: none;
+  /*display: flex;
+  flex-direction: row;*/
 }
 
 #Button-heb {
-  color: #0065fc;
-  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+#one {
+  padding-right: 5%;
+  text-decoration: none;
+  padding-left: 5%;
+  /*border-top: 3px solid #0065fc;*/
   border-top: 3px solid #0065fc;
+  /*padding-top: 2%;*/
+  padding-top: 5%;
 }
 
-#Button-act {
-  color: black;
+#two {
+  margin-right: 5%;
+  text-decoration: none;
+  margin-left: 5%;
 }
 
-#Button-sign {
-  color: #0065fc;
-  font-weight: bold;
+#three {
+  margin-right: 5%;
+  text-decoration: none;
+  margin-left: 5%;
 }
 
 #Recherche {
