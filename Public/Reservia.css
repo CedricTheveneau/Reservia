@@ -30,6 +30,12 @@ header {
   max-width: 50%;
 }
 
+#Titre img {
+  max-width: 80%;
+  max-height: auto;
+  padding-top: 15%;
+}
+
 /* Menu de navigation */
 
 #Nav {
@@ -49,29 +55,41 @@ header {
 }
 
 #one {
-  padding-right: 5%;
+  padding-right: 15%;
   text-decoration: none;
   color: #0065fc;
-  padding-left: 5%;
-  border-top: 3px solid #0065fc;
+  padding-left: 15%;
   padding-top: 20%;
-  margin-right: 20%;
+  /* margin-right: 20%; */
+}
+
+#one:hover {
+  border-top: 3px solid #0065fc;
+  padding-top: 18.5%;
 }
 
 #two {
-  /* margin-right: 5%; */
   text-decoration: none;
   color: black;
-  margin-left: 5%;
-  margin-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20%;
+  /* margin-right: 20%; */
+}
+
+#two:hover {
+  border-top: 3px solid #0065fc;
+  padding-top: 18.5%;
 }
 
 #three {
-  margin-right: 5%;
+  /* margin-right: 5%; */
   text-decoration: none;
   color: #0065fc;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   font-weight: bold;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #Recherche {
@@ -132,7 +150,7 @@ h2 {
 
 h3 {
   font-weight: bold;
-  font-size: medium;
+  font-size: small;
 }
 
 /* Filtres */
@@ -153,12 +171,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-top: -1.5%;
-  margin-left: -1%;
+  margin-top: -2.3%;
+  margin-left: -2.4%;
 }
 
 .fa-money-bill-wave {
@@ -168,7 +186,7 @@ h3 {
 #Economique {
   display: flex;
   font-weight: bold;
-  width: 150px;
+  width: 140px;
   height: 33px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
@@ -178,6 +196,7 @@ h3 {
 
 #eco {
   margin: auto;
+  font-size: small;
 }
 
 /* Familial */
@@ -188,12 +207,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-top: -1.5%;
-  margin-left: -1%;
+  margin-top: -3%;
+  margin-left: -3.5%;
 }
 
 .fa-child {
@@ -203,8 +222,8 @@ h3 {
 #Familial {
   display: flex;
   font-weight: bold;
-  width: 115px;
-  height: 35px;
+  width: 110px;
+  height: 33px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -213,6 +232,7 @@ h3 {
 
 #pfam {
   margin: auto;
+  font-size: small;
 }
 
 /* Romantique */
@@ -223,12 +243,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-top: -1.5%;
-  margin-left: -1%;
+  margin-top: -2.4%;
+  margin-left: -2.5%;
 }
 
 .fa-heart {
@@ -238,8 +258,8 @@ h3 {
 #Romantique {
   display: flex;
   font-weight: bold;
-  width: 150px;
-  height: 35px;
+  width: 135px;
+  height: 33px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -248,6 +268,7 @@ h3 {
 
 #prom {
   margin: auto;
+  font-size: small;
 }
 
 /* Animaux */
@@ -258,12 +279,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-top: -1.5%;
-  margin-left: -1%;
+  margin-top: -1.8%;
+  margin-left: -2%;
 }
 
 .fa-dog {
@@ -273,8 +294,8 @@ h3 {
 #Animaux {
   display: flex;
   font-weight: bold;
-  width: 200px;
-  height: 35px;
+  width: 175px;
+  height: 33px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -283,6 +304,7 @@ h3 {
 
 #pani {
   margin: auto;
+  font-size: small;
 }
 
 /* Nombres résultats */
