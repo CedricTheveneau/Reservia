@@ -38,6 +38,7 @@ header {
 
 #Nav ul {
   margin-block: auto;
+  font-size: small;
 }
 
 #Button-heb {
@@ -53,14 +54,16 @@ header {
   color: #0065fc;
   padding-left: 5%;
   border-top: 3px solid #0065fc;
-  padding-top: 10%;
+  padding-top: 20%;
+  margin-right: 20%;
 }
 
 #two {
-  margin-right: 5%;
+  /* margin-right: 5%; */
   text-decoration: none;
   color: black;
   margin-left: 5%;
+  margin-right: 20%;
 }
 
 #three {
@@ -68,6 +71,7 @@ header {
   text-decoration: none;
   color: #0065fc;
   margin-left: 5%;
+  font-weight: bold;
 }
 
 #Recherche {
@@ -77,6 +81,15 @@ header {
 
 #slogan {
   font-weight: bold;
+}
+
+#pslogan {
+  margin-top: -1%;
+  font-size: smaller;
+}
+
+h2 {
+  font-size: larger;
 }
 
 /* Barre de recherches */
@@ -89,7 +102,7 @@ header {
 
 #Location-logo {
   background-color: #f2f2f2;
-  border-radius: 40% 0% 0% 40%;
+  border-radius: 30% 0% 0% 30%;
   width: 35px;
   height: 35px;
   text-align: center;
@@ -110,12 +123,16 @@ header {
 
 #Bouton-Search {
   max-height: 35px;
-  max-width: 80px;
+  max-width: 100px;
   background-color: #0065fc;
+  color: white;
+  border: 5px #0065fc solid;
+  border-radius: 0% 25% 25% 0%;
 }
 
 h3 {
   font-weight: bold;
+  font-size: medium;
 }
 
 /* Filtres */
@@ -123,6 +140,9 @@ h3 {
 #filtres {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 /* Economique */
@@ -133,10 +153,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
+  margin-top: -1.5%;
+  margin-left: -1%;
 }
 
 .fa-money-bill-wave {
@@ -151,6 +173,11 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
+  margin-left: 2%;
+}
+
+#eco {
+  margin: auto;
 }
 
 /* Familial */
@@ -161,10 +188,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
+  margin-top: -1.5%;
+  margin-left: -1%;
 }
 
 .fa-child {
@@ -174,11 +203,16 @@ h3 {
 #Familial {
   display: flex;
   font-weight: bold;
-  width: 150px;
+  width: 115px;
   height: 35px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
+  margin-left: 2%;
+}
+
+#pfam {
+  margin: auto;
 }
 
 /* Romantique */
@@ -189,10 +223,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
+  margin-top: -1.5%;
+  margin-left: -1%;
 }
 
 .fa-heart {
@@ -207,6 +243,11 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
+  margin-left: 2%;
+}
+
+#prom {
+  margin: auto;
 }
 
 /* Animaux */
@@ -217,10 +258,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
+  margin-top: -1.5%;
+  margin-left: -1%;
 }
 
 .fa-dog {
@@ -230,22 +273,51 @@ h3 {
 #Animaux {
   display: flex;
   font-weight: bold;
-  width: 150px;
+  width: 200px;
   height: 35px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
+  margin-left: 2%;
+}
+
+#pani {
+  margin: auto;
 }
 
 /* Nombres résultats */
 
-.fa-info {
-  color: #0065fc;
-  text-align: center;
-  border: 2px #f2f2f2;
+#nbr-icon {
+  display: flex;
+  align-items: center;
+  border: 1px #f2f2f2 solid;
   border-radius: 50%;
   width: 15px;
   height: 15px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fa-info {
+  color: #0065fc;
+  text-align: center;
+  font-size: xx-small;
+}
+
+#Nbre-res {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  display: flex;
+}
+
+#pnbre-res {
+  margin-left: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: small;
 }
 
 /* Corps principal */
