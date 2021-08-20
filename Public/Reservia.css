@@ -2,11 +2,10 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   color: black;
-  max-width: 100%;
-  top: 0em;
-  left: 0em;
+  width: 100%;
+  margin: auto;
 }
 
 /* Logo */
@@ -35,6 +34,10 @@ header {
 
 #Nav {
   max-width: 50%;
+}
+
+#Nav ul {
+  margin-block: auto;
 }
 
 #Button-heb {
@@ -91,6 +94,8 @@ header {
   height: 35px;
   text-align: center;
   justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .fa-map-marker-alt {
@@ -130,6 +135,8 @@ h3 {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .fa-money-bill-wave {
@@ -156,6 +163,8 @@ h3 {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .fa-child {
@@ -182,6 +191,8 @@ h3 {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .fa-heart {
@@ -208,6 +219,8 @@ h3 {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .fa-dog {
