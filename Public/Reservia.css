@@ -18,9 +18,16 @@ img {
 /* Header */
 
 header {
-  max-width: 90%;
+  /* max-width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; */
+
+  max-width: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -94,7 +101,7 @@ header {
 
 #Recherche {
   max-width: 90%;
-  margin-left: 8%;
+  margin-left: 4.5%;
 }
 
 #slogan {
@@ -380,6 +387,22 @@ h3 {
 footer {
   background-color: #f2f2f2;
   display: flex;
-  justify-content: flex-start space-between;
+  justify-content: flex-start;
   max-width: 100%;
+  padding-left: 4.5%;
+  padding-top: 2%;
+}
+
+#Propos {
+  margin-right: 20%;
+}
+
+#Héber-F {
+  margin-right: 20%;
+}
+
+.fliens {
+  text-decoration: none;
+  color: black;
+  font-size: x-small;
 }
