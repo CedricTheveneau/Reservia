@@ -47,6 +47,7 @@ header {
 
 #Nav {
   max-width: 50%;
+  padding-right: 4.5%;
 }
 
 #Nav ul {
@@ -352,11 +353,10 @@ h3 {
 /* Corps principal */
 
 #corps {
-  max-width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 /* Hébergement */
@@ -369,7 +369,14 @@ h3 {
 
 #Cartes-Hébergement {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  height: 85%;
+  flex-wrap: wrap;
+}
+
+.hliens {
+  text-decoration: none;
+  color: black;
 }
 
 /* populaires */
@@ -377,10 +384,35 @@ h3 {
 #Populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  max-width: 40%;
+  width: 37%;
+}
+
+#Cartes-Populaires {
+  justify-content: center;
+}
+
+.pliens {
+  text-decoration: none;
+  color: black;
 }
 
 /* Activités */
+
+#Activités {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 4%;
+}
+
+#Cartes-Activités {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aliens {
+  text-decoration: none;
+  color: black;
+}
 
 /* Footer */
 
