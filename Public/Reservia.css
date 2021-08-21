@@ -364,7 +364,9 @@ h3 {
 #Hébergement {
   background-color: #f2f2f2;
   border-radius: 20px;
-  max-width: 60%;
+  max-width: 55%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #Cartes-Hébergement {
@@ -384,7 +386,9 @@ h3 {
 #Populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 37%;
+  width: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #Cartes-Populaires {
