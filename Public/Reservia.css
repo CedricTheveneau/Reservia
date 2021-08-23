@@ -153,7 +153,8 @@ h2 {
   background-color: #0065fc;
   color: white;
   border: 5px #0065fc solid;
-  border-radius: 0% 25% 25% 0%;
+  cursor: pointer;
+  border-radius: 0px 18px 18px 0;
 }
 
 h3 {
@@ -169,6 +170,11 @@ h3 {
   align-items: center;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
+}
+
+.filclic {
+  text-decoration: none;
+  color: black;
 }
 
 /* Economique */
@@ -200,6 +206,10 @@ h3 {
   border-radius: 50px;
   align-content: center;
   margin-left: 2%;
+}
+
+#Economique:hover {
+  background-color: #0065fc;
 }
 
 #eco {
@@ -238,6 +248,10 @@ h3 {
   margin-left: 2%;
 }
 
+#Familial:hover {
+  background-color: #0065fc;
+}
+
 #pfam {
   margin: auto;
   font-size: small;
@@ -274,6 +288,10 @@ h3 {
   margin-left: 2%;
 }
 
+#Romantique:hover {
+  background-color: #0065fc;
+}
+
 #prom {
   margin: auto;
   font-size: small;
@@ -308,6 +326,10 @@ h3 {
   border-radius: 50px;
   align-content: center;
   margin-left: 2%;
+}
+
+#Animaux:hover {
+  background-color: #0065fc;
 }
 
 #pani {
@@ -429,6 +451,10 @@ footer {
   padding-top: 2%;
 }
 
+.footer-titles {
+  font-size: medium;
+}
+
 #Propos {
   margin-right: 20%;
 }
@@ -440,5 +466,5 @@ footer {
 .fliens {
   text-decoration: none;
   color: black;
-  font-size: x-small;
+  font-size: small;
 }
