@@ -175,6 +175,7 @@ h3 {
 .filclic {
   text-decoration: none;
   color: black;
+  margin-left: 2%;
 }
 
 /* Economique */
@@ -205,7 +206,6 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
-  margin-left: 2%;
 }
 
 #Economique:hover {
@@ -245,7 +245,6 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
-  margin-left: 2%;
 }
 
 #Familial:hover {
@@ -285,7 +284,6 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
-  margin-left: 2%;
 }
 
 #Romantique:hover {
@@ -325,7 +323,6 @@ h3 {
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
-  margin-left: 2%;
 }
 
 #Animaux:hover {
@@ -381,6 +378,10 @@ h3 {
   justify-content: space-between;
 }
 
+.fa-star {
+  color: #0065fc;
+}
+
 /* Hébergement */
 
 #Hébergement {
@@ -401,6 +402,11 @@ h3 {
 .hliens {
   text-decoration: none;
   color: black;
+}
+
+#affplus {
+  color: black;
+  text-decoration: none;
 }
 
 /* populaires */
