@@ -473,6 +473,7 @@ h3 {
   margin-left: 4.5%;
   margin-right: 4.5%;
   margin-top: 4%;
+  height: 550px;
 }
 
 #Cartes-Activités {
@@ -483,6 +484,49 @@ h3 {
 .aliens {
   text-decoration: none;
   color: black;
+}
+
+.colonnecartes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actp {
+  height: 60px;
+  background-color: white;
+  position: relative;
+  margin-top: -23.88%;
+  border-radius: 0% 0% 10% 10%;
+  cursor: pointer;
+  width: 100%;
+}
+
+.acttitles {
+  padding-top: 6.5%;
+  padding-left: 8%;
+  font-size: medium;
+}
+
+.actimgl {
+  width: 335px;
+  height: 450px;
+  border-radius: 10%;
+  box-shadow: lightgrey 5px 5px 15px;
+}
+
+.actimgm {
+  width: 335px;
+  height: 240px;
+  border-radius: 10%;
+  box-shadow: lightgrey 5px 5px 15px;
+}
+
+.actimgs {
+  width: 335px;
+  height: 160px;
+  border-radius: 10%;
+  box-shadow: lightgrey 5px 5px 15px;
 }
 
 /* Footer */
