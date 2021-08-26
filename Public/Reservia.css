@@ -155,7 +155,7 @@ h2 {
   color: white;
   border: 5px #0065fc solid;
   cursor: pointer;
-  border-radius: 0px 18px 18px 0;
+  border-radius: 0px 10px 10px 0px;
 }
 
 h3 {
@@ -211,6 +211,7 @@ h3 {
 
 #Economique:hover {
   background-color: #0065fc;
+  color: white;
 }
 
 #eco {
@@ -250,6 +251,7 @@ h3 {
 
 #Familial:hover {
   background-color: #0065fc;
+  color: white;
 }
 
 #pfam {
@@ -289,6 +291,7 @@ h3 {
 
 #Romantique:hover {
   background-color: #0065fc;
+  color: white;
 }
 
 #prom {
@@ -328,6 +331,7 @@ h3 {
 
 #Animaux:hover {
   background-color: #0065fc;
+  color: white;
 }
 
 #pani {
