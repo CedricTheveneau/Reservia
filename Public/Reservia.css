@@ -28,7 +28,7 @@ header {
 
 #Titre {
   max-width: 13%;
-  margin-top: -2.5%;
+  margin-top: -1.8%;
   margin-bottom: -2%;
   margin-left: 0.8%;
 }
@@ -48,7 +48,7 @@ header {
 
 #Nav ul {
   margin-block: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 #Button-heb {
@@ -107,11 +107,7 @@ header {
 
 #pslogan {
   margin-top: -1%;
-  font-size: smaller;
-}
-
-h2 {
-  font-size: larger;
+  font-size: large;
 }
 
 /* Barre de recherches */
@@ -125,8 +121,8 @@ h2 {
 #Location-logo {
   background-color: #f2f2f2;
   border-radius: 30% 0% 0% 30%;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -140,6 +136,9 @@ h2 {
 #Marseille {
   border: 2px solid #f2f2f2;
   font-weight: bold;
+  font-size: medium;
+  font-family: "Raleway";
+  width: 280px;
 }
 
 ::placeholder {
@@ -149,10 +148,13 @@ h2 {
 }
 
 #Bouton-Search {
-  max-height: 35px;
-  max-width: 100px;
+  max-height: 45px;
+  max-width: 100%;
   background-color: #0065fc;
   color: white;
+  font-size: medium;
+  font-family: "Raleway";
+  font-weight: bold;
   border: 5px #0065fc solid;
   cursor: pointer;
   border-radius: 0px 10px 10px 0px;
@@ -160,7 +162,6 @@ h2 {
 
 h3 {
   font-weight: bold;
-  font-size: small;
 }
 
 /* Filtres */
@@ -187,12 +188,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
-  margin-top: -2.3%;
-  margin-left: -2.4%;
+  margin-top: -1.5%;
+  margin-left: -2.1%;
 }
 
 .fa-money-bill-wave {
@@ -202,8 +203,8 @@ h3 {
 #Economique {
   display: flex;
   font-weight: bold;
-  width: 140px;
-  height: 33px;
+  width: 160px;
+  height: 38px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -216,7 +217,7 @@ h3 {
 
 #eco {
   margin: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 /* Familial */
@@ -227,12 +228,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
-  margin-top: -3%;
-  margin-left: -3.5%;
+  margin-top: -2.3%;
+  margin-left: -3%;
 }
 
 .fa-child {
@@ -242,8 +243,8 @@ h3 {
 #Familial {
   display: flex;
   font-weight: bold;
-  width: 110px;
-  height: 33px;
+  width: 130px;
+  height: 38px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -256,7 +257,7 @@ h3 {
 
 #pfam {
   margin: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 /* Romantique */
@@ -267,12 +268,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
-  margin-top: -2.4%;
-  margin-left: -2.5%;
+  margin-top: -2%;
+  margin-left: -2%;
 }
 
 .fa-heart {
@@ -282,8 +283,8 @@ h3 {
 #Romantique {
   display: flex;
   font-weight: bold;
-  width: 135px;
-  height: 33px;
+  width: 155px;
+  height: 38px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -296,7 +297,7 @@ h3 {
 
 #prom {
   margin: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 /* Animaux */
@@ -307,12 +308,12 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
-  margin-top: -1.8%;
-  margin-left: -2%;
+  margin-top: -1.4%;
+  margin-left: -1.8%;
 }
 
 .fa-dog {
@@ -322,8 +323,8 @@ h3 {
 #Animaux {
   display: flex;
   font-weight: bold;
-  width: 175px;
-  height: 33px;
+  width: 200px;
+  height: 38px;
   border: 3px #f2f2f2 solid;
   border-radius: 50px;
   align-content: center;
@@ -336,7 +337,7 @@ h3 {
 
 #pani {
   margin: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 /* Nombres résultats */
@@ -362,8 +363,8 @@ h3 {
 }
 
 #Nbre-res {
-  margin-bottom: 2%;
-  margin-top: 2%;
+  margin-bottom: 1.8%;
+  margin-top: 1.5%;
   display: flex;
 }
 
@@ -371,7 +372,7 @@ h3 {
   margin-left: 1%;
   margin-top: auto;
   margin-bottom: auto;
-  font-size: small;
+  font-size: medium;
 }
 
 /* Corps principal */
@@ -393,7 +394,7 @@ h3 {
 #Hébergement {
   background-color: #f2f2f2;
   border-radius: 20px;
-  max-width: 55%;
+  max-width: 60%;
   padding-left: 3%;
   padding-right: 3%;
   max-height: 600px;
@@ -412,15 +413,15 @@ h3 {
 }
 
 .imgheb {
-  width: 220px;
-  height: 180px;
+  width: 235px;
+  height: 110px;
   border: 5px solid white;
+  border-bottom: 80px solid white;
   border-radius: 10%;
-  box-shadow: lightgray 5px 5px 15px;
+  box-shadow: lightgrey 5px 5px 15px;
 }
 
 .bannerheb {
-  background-color: white;
   position: relative;
   margin-top: -42%;
   border-radius: 0% 0% 10% 10%;
@@ -433,7 +434,7 @@ h3 {
 
 .cardhebtitle {
   font-size: 15px;
-  padding-top: 4%;
+  padding-top: 6.5%;
 }
 
 .hebp {
@@ -451,6 +452,7 @@ h3 {
   color: black;
   max-height: 38%;
   margin-right: 1%;
+  margin-bottom: 8.5%;
 }
 
 #affplus {
@@ -459,19 +461,23 @@ h3 {
   height: 40%;
 }
 
+#affp {
+  padding-top: 1%;
+}
+
 /* populaires */
 
 #Populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 30%;
+  width: 25%;
   padding-left: 3%;
   padding-right: 3%;
   max-height: 600px;
 }
 
 #pops {
-  margin-top: 9%;
+  margin-top: 12%;
 }
 
 #Cartes-Populaires {
@@ -489,38 +495,44 @@ h3 {
 }
 
 .poprat {
-  margin-top: 18%;
+  padding-top: 5%;
 }
 
 .popimg {
-  width: 130px;
-  height: 140px;
-  border-radius: 10% 0% 0% 10%;
-  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 5px solid white;
+  border-right: 215px solid white;
+  border-radius: 5%/15%;
+}
+
+#bleublancimg {
+  width: 120px;
+  height: 120px;
+  border: 5px solid white;
+  border-right: 215px solid white;
+  border-radius: 5%/15%;
 }
 
 .popp {
-  background-color: white;
-  width: 100%;
-  border-radius: 10%/20%;
-  padding-left: 15%;
-  margin-left: -10%;
+  width: 50%;
+  position: relative;
+  margin-left: -52%;
 }
 
 #Soleil {
   display: flex;
   margin-top: 2%;
-  margin-bottom: 8%;
+  margin-bottom: 11%;
 }
 
 #Coeur {
   display: flex;
-  margin-bottom: 8%;
+  margin-bottom: 11%;
 }
 
 #Bleu-Blanc {
   display: flex;
-  margin-bottom: 8%;
 }
 
 .pliens {
@@ -555,15 +567,7 @@ h3 {
 }
 
 .actp {
-  height: 60px;
-  background-color: white;
-  position: relative;
-  margin-top: -23.88%;
-  border-radius: 10%/50%;
-  border-top-left-radius: 0%;
-  border-top-right-radius: 0%;
-  cursor: pointer;
-  width: 100%;
+  margin-top: -26%;
 }
 
 .acttitles {
@@ -574,22 +578,25 @@ h3 {
 
 .actimgl {
   width: 310px;
-  height: 450px;
-  border-radius: 10%;
+  height: 390px;
+  border-bottom: 60px solid white;
+  border-radius: 10%/7.5%;
   box-shadow: lightgrey 5px 5px 15px;
 }
 
 .actimgm {
   width: 310px;
-  height: 240px;
+  height: 180px;
   border-radius: 10%/12.3%;
+  border-bottom: 60px solid white;
   box-shadow: lightgrey 5px 5px 15px;
 }
 
 .actimgs {
   width: 310px;
-  height: 160px;
+  height: 100px;
   border-radius: 10%/19.8%;
+  border-bottom: 60px solid white;
   box-shadow: lightgrey 5px 5px 15px;
 }
 
