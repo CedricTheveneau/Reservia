@@ -64,12 +64,11 @@ header {
   color: #0065fc;
   padding-left: 15%;
   padding-top: 20%;
-  /* margin-right: 20%; */
 }
 
 #one:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 18.5%;
+  padding-top: 19%;
 }
 
 #two {
@@ -78,19 +77,16 @@ header {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 20%;
-  /* margin-right: 20%; */
 }
 
 #two:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 18.5%;
+  padding-top: 19%;
 }
 
 #three {
-  /* margin-right: 5%; */
   text-decoration: none;
   color: #0065fc;
-  /* margin-left: 5%; */
   font-weight: bold;
   padding-left: 15%;
   padding-right: 15%;
@@ -504,6 +500,7 @@ h3 {
   border: 5px solid white;
   border-right: 215px solid white;
   border-radius: 5%/15%;
+  box-shadow: 5px 5px 15px lightgrey;
 }
 
 #bleublancimg {
@@ -512,6 +509,7 @@ h3 {
   border: 5px solid white;
   border-right: 215px solid white;
   border-radius: 5%/15%;
+  box-shadow: 5px 5px 15px lightgrey;
 }
 
 .popp {
