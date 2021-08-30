@@ -35,7 +35,6 @@ header {
 
 #Titre img {
   max-width: 80%;
-  max-height: auto;
   padding-top: 15%;
 }
 
@@ -57,6 +56,13 @@ header {
   justify-content: flex-end;
   align-items: baseline;
 }
+
+/* li {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+} */
 
 #one {
   padding-right: 15%;
@@ -612,6 +618,10 @@ footer {
 
 .footer-titles {
   font-size: medium;
+}
+
+.espacef {
+  margin-bottom: -8%;
 }
 
 #Propos {
