@@ -637,3 +637,647 @@ footer {
   color: black;
   font-size: small;
 }
+
+/* Responsive iPhone 8 */
+
+@media only screen and (max-width: 375px) {
+  /* Infos générales */
+
+  body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: black;
+    width: 375px;
+    margin: auto;
+  }
+
+  /* Logo */
+
+  img {
+    width: 160px;
+    height: 100px;
+  }
+
+  /* Header */
+
+  header {
+    max-width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  #Titre {
+    max-width: 13%;
+    margin-top: -1.8%;
+    margin-bottom: -2%;
+    margin-left: 0.8%;
+  }
+
+  #Titre img {
+    max-width: 80%;
+    padding-top: 15%;
+  }
+
+  /* Menu de navigation */
+
+  #Nav {
+    max-width: 50%;
+    padding-right: 4.5%;
+  }
+
+  #Nav ul {
+    margin-block: auto;
+    font-size: medium;
+  }
+
+  #Button-heb {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+
+  /* li {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+} */
+
+  #one {
+    padding-right: 15%;
+    text-decoration: none;
+    color: #0065fc;
+    padding-left: 15%;
+    padding-top: 20%;
+  }
+
+  #one:hover {
+    border-top: 3px solid #0065fc;
+    padding-top: 19%;
+  }
+
+  #two {
+    text-decoration: none;
+    color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20%;
+  }
+
+  #two:hover {
+    border-top: 3px solid #0065fc;
+    padding-top: 19%;
+  }
+
+  #three {
+    text-decoration: none;
+    color: #0065fc;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #Recherche {
+    max-width: 90%;
+    margin-left: 4.5%;
+  }
+
+  #slogan {
+    font-weight: bold;
+  }
+
+  #pslogan {
+    margin-top: -1%;
+    font-size: large;
+  }
+
+  /* Barre de recherches */
+
+  #search {
+    display: flex;
+    align-content: center;
+    max-width: 90%;
+  }
+
+  #Location-logo {
+    background-color: #f2f2f2;
+    border-radius: 30% 0% 0% 30%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-map-marker-alt {
+    color: black;
+  }
+
+  #Marseille {
+    border: 2px solid #f2f2f2;
+    font-weight: bold;
+    font-size: medium;
+    font-family: "Raleway";
+    width: 280px;
+  }
+
+  ::placeholder {
+    color: black;
+    opacity: 100%;
+    padding-left: 6%;
+  }
+
+  #Bouton-Search {
+    max-height: 45px;
+    max-width: 100%;
+    background-color: #0065fc;
+    color: white;
+    font-size: medium;
+    font-family: "Raleway";
+    font-weight: bold;
+    border: 5px #0065fc solid;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  /* Filtres */
+
+  #filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  .filclic {
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+  }
+
+  /* Economique */
+
+  #money {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5%;
+    margin-left: -2.1%;
+  }
+
+  .fa-money-bill-wave {
+    color: #0065fc;
+  }
+
+  #Economique {
+    display: flex;
+    font-weight: bold;
+    width: 160px;
+    height: 38px;
+    border: 3px #f2f2f2 solid;
+    border-radius: 50px;
+    align-content: center;
+  }
+
+  #Economique:hover {
+    background-color: #0065fc;
+    color: white;
+  }
+
+  #eco {
+    margin: auto;
+    font-size: medium;
+  }
+
+  /* Familial */
+
+  #fam {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-top: -2.3%;
+    margin-left: -3%;
+  }
+
+  .fa-child {
+    color: #0065fc;
+  }
+
+  #Familial {
+    display: flex;
+    font-weight: bold;
+    width: 130px;
+    height: 38px;
+    border: 3px #f2f2f2 solid;
+    border-radius: 50px;
+    align-content: center;
+  }
+
+  #Familial:hover {
+    background-color: #0065fc;
+    color: white;
+  }
+
+  #pfam {
+    margin: auto;
+    font-size: medium;
+  }
+
+  /* Romantique */
+
+  #rom {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-top: -2%;
+    margin-left: -2%;
+  }
+
+  .fa-heart {
+    color: #0065fc;
+  }
+
+  #Romantique {
+    display: flex;
+    font-weight: bold;
+    width: 155px;
+    height: 38px;
+    border: 3px #f2f2f2 solid;
+    border-radius: 50px;
+    align-content: center;
+  }
+
+  #Romantique:hover {
+    background-color: #0065fc;
+    color: white;
+  }
+
+  #prom {
+    margin: auto;
+    font-size: medium;
+  }
+
+  /* Animaux */
+
+  #ani {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-top: -1.4%;
+    margin-left: -1.8%;
+  }
+
+  .fa-dog {
+    color: #0065fc;
+  }
+
+  #Animaux {
+    display: flex;
+    font-weight: bold;
+    width: 200px;
+    height: 38px;
+    border: 3px #f2f2f2 solid;
+    border-radius: 50px;
+    align-content: center;
+  }
+
+  #Animaux:hover {
+    background-color: #0065fc;
+    color: white;
+  }
+
+  #pani {
+    margin: auto;
+    font-size: medium;
+  }
+
+  /* Nombres résultats */
+
+  #nbr-icon {
+    display: flex;
+    align-items: center;
+    border: 1px #f2f2f2 solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .fa-info {
+    color: #0065fc;
+    text-align: center;
+    font-size: xx-small;
+  }
+
+  #Nbre-res {
+    margin-bottom: 1.8%;
+    margin-top: 1.5%;
+    display: flex;
+  }
+
+  #pnbre-res {
+    margin-left: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: medium;
+  }
+
+  /* Corps principal */
+
+  #corps {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fa-star {
+    color: #0065fc;
+    font-size: xx-small;
+  }
+
+  /* Hébergement */
+
+  #Hébergement {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    max-width: 60%;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-height: 600px;
+  }
+
+  #hebtitle {
+    padding-top: 3%;
+  }
+
+  #Cartes-Hébergement {
+    display: flex;
+    justify-content: space-between;
+    height: 72%;
+    flex-wrap: wrap;
+    padding-top: 1%;
+  }
+
+  .imgheb {
+    width: 235px;
+    height: 110px;
+    border: 5px solid white;
+    border-bottom: 80px solid white;
+    border-radius: 10%;
+    box-shadow: lightgrey 5px 5px 15px;
+  }
+
+  .bannerheb {
+    position: relative;
+    margin-top: -42%;
+    border-radius: 0% 0% 10% 10%;
+    cursor: pointer;
+    width: 94%;
+    margin-left: 4.5px;
+    margin-right: 5px;
+    padding-left: 8px;
+  }
+
+  .cardhebtitle {
+    font-size: 15px;
+    padding-top: 6.5%;
+  }
+
+  .hebp {
+    font-size: small;
+    margin-top: -4%;
+  }
+
+  .ratings {
+    margin-top: -5%;
+    padding-bottom: 2%;
+  }
+
+  .hliens {
+    text-decoration: none;
+    color: black;
+    max-height: 38%;
+    margin-right: 1%;
+    margin-bottom: 8.5%;
+  }
+
+  #affplus {
+    color: black;
+    text-decoration: none;
+    height: 40%;
+  }
+
+  #affp {
+    padding-top: 1%;
+  }
+
+  /* populaires */
+
+  #Populaires {
+    background-color: #f2f2f2;
+    width: 25%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    max-height: 600px;
+  }
+
+  #pops {
+    margin-top: 12%;
+    font-size: small;
+  }
+
+  #Cartes-Populaires {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poptitles {
+    font-size: small;
+    margin-bottom: -4%;
+  }
+
+  .popularp {
+    font-size: xx-small;
+  }
+
+  .poprat {
+    padding-top: 5%;
+  }
+
+  .popimg {
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    border-right: 145px solid white;
+    border-radius: 5%/15%;
+    box-shadow: 5px 5px 15px lightgrey;
+  }
+
+  #bleublancimg {
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+    border-right: 215px solid white;
+    border-radius: 5%/15%;
+    box-shadow: 5px 5px 15px lightgrey;
+  }
+
+  .popp {
+    width: 50%;
+    position: relative;
+    margin-left: -60%;
+  }
+
+  #Soleil {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 11%;
+  }
+
+  #Coeur {
+    display: flex;
+    margin-bottom: 11%;
+  }
+
+  #Bleu-Blanc {
+    display: flex;
+  }
+
+  .pliens {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Activités */
+
+  #Activités {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    height: 550px;
+  }
+
+  #Cartes-Activités {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .aliens {
+    text-decoration: none;
+    color: black;
+  }
+
+  .colonnecartes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .actp {
+    margin-top: -26%;
+  }
+
+  .acttitles {
+    padding-top: 6.5%;
+    padding-left: 8%;
+    font-size: medium;
+  }
+
+  .actimgl {
+    width: 310px;
+    height: 390px;
+    border-bottom: 60px solid white;
+    border-radius: 10%/7.5%;
+    box-shadow: lightgrey 5px 5px 15px;
+  }
+
+  .actimgm {
+    width: 310px;
+    height: 180px;
+    border-radius: 10%/12.3%;
+    border-bottom: 60px solid white;
+    box-shadow: lightgrey 5px 5px 15px;
+  }
+
+  .actimgs {
+    width: 310px;
+    height: 100px;
+    border-radius: 10%/19.8%;
+    border-bottom: 60px solid white;
+    box-shadow: lightgrey 5px 5px 15px;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-left: 4.5%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+
+  .footer-titles {
+    font-size: medium;
+  }
+
+  .espacef {
+    margin-bottom: -8%;
+  }
+
+  #Propos {
+    margin-right: 20%;
+  }
+
+  #Héber-F {
+    margin-right: 20%;
+  }
+
+  .fliens {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+  }
+}
