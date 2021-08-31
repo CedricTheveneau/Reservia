@@ -1025,7 +1025,8 @@ footer {
   #corps {
     display: flex;
     flex-direction: column-reverse;
-    width: 375px;
+    width: 100%;
+    margin: unset;
   }
 
   .fa-star {
@@ -1037,8 +1038,11 @@ footer {
 
   #Hébergement {
     max-width: 100%;
+    width: 100%;
     padding-left: 3%;
     padding-right: 3%;
+    background: none;
+    max-height: unset;
   }
 
   #hebtitle {
@@ -1065,7 +1069,7 @@ footer {
 
   .bannerheb {
     position: relative;
-    margin-top: -28%;
+    margin-top: -31%;
     border-radius: 0% 0% 10% 10%;
     cursor: pointer;
     width: 94%;
@@ -1111,10 +1115,8 @@ footer {
   #Populaires {
     background-color: #f2f2f2;
     width: 100%;
-    padding-left: 1.5%;
-    padding-right: 3%;
-    /* max-height: 600px; */
     margin-bottom: 4%;
+    border-radius: unset;
   }
 
   #pops {
@@ -1138,24 +1140,24 @@ footer {
   }
 
   .poprat {
-    padding-top: 18%;
+    padding-top: 8%;
   }
 
   .popimg {
-    width: 101px;
-    height: 111px;
+    width: 130px;
+    height: 130px;
     border: 5px solid white;
-    border-right: 230px solid white;
+    border-right: 200px solid white;
     border-radius: 8%/18%;
     box-shadow: 5px 5px 15px lightgrey;
     margin-left: 17px;
   }
 
   #bleublancimg {
-    width: 101px;
-    height: 111px;
+    width: 130px;
+    height: 130px;
     border: 5px solid white;
-    border-right: 230px solid white;
+    border-right: 200px solid white;
     border-radius: 8%/18%;
     box-shadow: 5px 5px 15px lightgrey;
     margin-left: 17px;
@@ -1164,23 +1166,23 @@ footer {
   .popp {
     width: 45%;
     position: relative;
-    margin-left: -50%;
+    margin-left: -48%;
   }
 
   #Soleil {
     display: flex;
     margin-top: 2%;
-    margin-bottom: 11%;
+    margin-bottom: 5%;
   }
 
   #Coeur {
     display: flex;
-    margin-bottom: 11%;
+    margin-bottom: 5%;
   }
 
   #Bleu-Blanc {
     display: flex;
-    margin-bottom: 11%;
+    margin-bottom: 5%;
   }
 
   .pliens {
@@ -1195,6 +1197,7 @@ footer {
     margin-bottom: 2%;
     width: 375px;
     padding-left: 17px;
+    height: unset;
   }
 
   #atitle {
@@ -1218,7 +1221,7 @@ footer {
   }
 
   .actp {
-    margin-top: -21%;
+    margin-top: -23%;
     margin-bottom: 13%;
     margin-left: -3%;
   }
