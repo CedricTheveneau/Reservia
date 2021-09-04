@@ -1277,32 +1277,42 @@ footer {
   footer {
     background-color: #f2f2f2;
     display: flex;
-    justify-content: flex-start;
-    max-width: 414px;
+    width: 100%;
     padding-left: 4.5%;
     padding-top: 2%;
     padding-bottom: 4%;
+    flex-direction: column;
+    height: unset;
   }
 
   .footer-titles {
-    font-size: medium;
+    font-size: xxx-large;
+    margin-bottom: 9.5%;
   }
 
   .espacef {
-    margin-bottom: -8%;
+    margin-bottom: -1%;
   }
 
   #Propos {
-    margin-right: 20%;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    margin-top: 8%;
   }
 
   #Héber-F {
-    margin-right: 20%;
+    margin-bottom: 10%;
+    padding-left: 2%;
+  }
+
+  #Assistance {
+    margin-bottom: 10%;
+    padding-left: 2%;
   }
 
   .fliens {
     text-decoration: none;
     color: black;
-    font-size: small;
+    font-size: xx-large;
   }
 }
