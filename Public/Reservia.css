@@ -659,8 +659,8 @@ footer {
   /* Logo */
 
   img {
-    width: 160px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
   }
 
   /* Header */
@@ -672,37 +672,40 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: column;
   }
 
   #Titre {
-    max-width: 13%;
+    max-width: 100%;
     margin-top: -1.8%;
     margin-bottom: -2%;
-    margin-left: 0.8%;
+    margin-left: -5%;
   }
 
   #Titre img {
-    max-width: 80%;
+    max-width: 100%;
     padding-top: 15%;
   }
 
   /* Menu de navigation */
 
   #Nav {
-    max-width: 50%;
-    padding-right: 4.5%;
+    max-width: 100%;
+    width: 100%;
   }
 
   #Nav ul {
     margin-block: auto;
-    font-size: medium;
+    font-size: xxx-large;
   }
 
   #Button-heb {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
     align-items: baseline;
+    max-width: 50%;
+    margin-left: 90%;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   /* li {
@@ -747,32 +750,34 @@ footer {
   }
 
   #Recherche {
-    max-width: 90%;
-    margin-left: 4.5%;
+    width: 100%;
   }
 
   #slogan {
     font-weight: bold;
+    font-size: xxx-large;
   }
 
   #pslogan {
     margin-top: -1%;
     font-size: large;
+    margin-bottom: 10%;
   }
 
   /* Barre de recherches */
 
   #search {
     display: flex;
-    align-content: center;
-    max-width: 90%;
+    width: 100%;
+    justify-content: center;
+    max-width: 100%;
   }
 
   #Location-logo {
     background-color: #f2f2f2;
     border-radius: 30% 0% 0% 30%;
-    width: 45px;
-    height: 45px;
+    width: 9em;
+    height: 9em;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -781,14 +786,16 @@ footer {
 
   .fa-map-marker-alt {
     color: black;
+    font-size: xxx-large;
   }
 
   #Marseille {
     border: 2px solid #f2f2f2;
     font-weight: bold;
-    font-size: medium;
+    font-size: xxx-large;
     font-family: "Raleway";
-    width: 280px;
+    width: 13em;
+    height: 3em;
   }
 
   ::placeholder {
@@ -798,8 +805,8 @@ footer {
   }
 
   #Bouton-Search {
-    max-height: 45px;
-    max-width: 100%;
+    max-height: 9em;
+    width: 9em;
     background-color: #0065fc;
     color: white;
     font-size: medium;
@@ -807,11 +814,13 @@ footer {
     font-weight: bold;
     border: 5px #0065fc solid;
     cursor: pointer;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 30%;
+    margin-left: -4%;
   }
 
   h3 {
     font-weight: bold;
+    font-size: xxx-large;
   }
 
   /* Filtres */
@@ -820,14 +829,17 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1.5%;
+    margin-top: -6%;
     margin-bottom: 1.5%;
+    flex-wrap: wrap;
   }
 
   .filclic {
     text-decoration: none;
     color: black;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: -0.2%;
+    margin-right: 3%;
   }
 
   /* Economique */
@@ -838,26 +850,30 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 106px;
+    height: 106px;
     display: flex;
     align-items: center;
-    margin-top: -1.5%;
-    margin-left: -2.1%;
+    margin-top: -0.7%;
+    margin-left: -1%;
   }
 
   .fa-money-bill-wave {
     color: #0065fc;
+    font-size: xxx-large;
   }
 
   #Economique {
     display: flex;
     font-weight: bold;
-    width: 160px;
-    height: 38px;
-    border: 3px #f2f2f2 solid;
+    width: 450px;
+    height: 100px;
+    border: 6px #f2f2f2 solid;
     border-radius: 50px;
     align-content: center;
+    /* Décalage pour placer Filtres */
+    margin-top: 45%;
+    margin-left: -31.5%;
   }
 
   #Economique:hover {
@@ -867,7 +883,7 @@ footer {
 
   #eco {
     margin: auto;
-    font-size: medium;
+    font-size: xxx-large;
   }
 
   /* Familial */
@@ -878,24 +894,25 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 106px;
+    height: 106px;
     display: flex;
     align-items: center;
-    margin-top: -2.3%;
-    margin-left: -3%;
+    margin-top: -0.8%;
+    margin-left: -1%;
   }
 
   .fa-child {
     color: #0065fc;
+    font-size: xxx-large;
   }
 
   #Familial {
     display: flex;
     font-weight: bold;
-    width: 130px;
-    height: 38px;
-    border: 3px #f2f2f2 solid;
+    width: 350px;
+    height: 100px;
+    border: 6px #f2f2f2 solid;
     border-radius: 50px;
     align-content: center;
   }
@@ -907,7 +924,7 @@ footer {
 
   #pfam {
     margin: auto;
-    font-size: medium;
+    font-size: xxx-large;
   }
 
   /* Romantique */
@@ -918,24 +935,25 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 106px;
+    height: 106px;
     display: flex;
     align-items: center;
-    margin-top: -2%;
-    margin-left: -2%;
+    margin-top: -0.5%;
+    margin-left: -1%;
   }
 
   .fa-heart {
     color: #0065fc;
+    font-size: xxx-large;
   }
 
   #Romantique {
     display: flex;
     font-weight: bold;
-    width: 155px;
-    height: 38px;
-    border: 3px #f2f2f2 solid;
+    width: 450px;
+    height: 100px;
+    border: 6px #f2f2f2 solid;
     border-radius: 50px;
     align-content: center;
   }
@@ -947,7 +965,7 @@ footer {
 
   #prom {
     margin: auto;
-    font-size: medium;
+    font-size: xxx-large;
   }
 
   /* Animaux */
@@ -958,24 +976,25 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 106px;
+    height: 106px;
     display: flex;
     align-items: center;
-    margin-top: -1.4%;
-    margin-left: -1.8%;
+    margin-top: -0.8%;
+    margin-left: -1%;
   }
 
   .fa-dog {
     color: #0065fc;
+    font-size: xxx-large;
   }
 
   #Animaux {
     display: flex;
     font-weight: bold;
-    width: 200px;
-    height: 38px;
-    border: 3px #f2f2f2 solid;
+    width: 600px;
+    height: 100px;
+    border: 6px #f2f2f2 solid;
     border-radius: 50px;
     align-content: center;
   }
@@ -987,7 +1006,7 @@ footer {
 
   #pani {
     margin: auto;
-    font-size: medium;
+    font-size: xxx-large;
   }
 
   /* Nombres résultats */
@@ -997,8 +1016,8 @@ footer {
     align-items: center;
     border: 1px #f2f2f2 solid;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 50px;
+    height: 50px;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -1009,20 +1028,21 @@ footer {
   .fa-info {
     color: #0065fc;
     text-align: center;
-    font-size: xx-small;
+    font-size: xx-large;
   }
 
   #Nbre-res {
-    margin-bottom: 1.8%;
-    margin-top: 1.5%;
+    margin-bottom: 8%;
+    margin-top: 5%;
     display: flex;
   }
 
   #pnbre-res {
-    margin-left: 1%;
+    margin-left: 3%;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: medium;
+    font-size: xx-large;
+    padding-top: 5%;
   }
 
   /* Corps principal */
