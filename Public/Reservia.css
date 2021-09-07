@@ -40,6 +40,10 @@ header {
 
 /* Menu de navigation */
 
+#subres {
+  display: none;
+}
+
 #Nav {
   max-width: 50%;
   padding-right: 4.5%;
@@ -74,7 +78,7 @@ header {
 
 #one:hover {
   border-top: 3px solid #0065fc;
-  padding-top: 19%;
+  padding-top: 18.8%;
 }
 
 #two {
@@ -671,6 +675,7 @@ footer {
 
   header {
     max-width: 100%;
+    width: 100%;
     margin-left: 1%;
     margin-right: 1%;
     display: flex;
@@ -683,12 +688,16 @@ footer {
     max-width: 100%;
     margin-top: -1.8%;
     margin-bottom: -2%;
-    margin-left: -15%;
+    margin-left: -2%;
   }
 
   #Titre img {
     max-width: 100%;
     padding-top: 15%;
+  }
+
+  #subres {
+    display: none;
   }
 
   /* Menu de navigation */
@@ -701,15 +710,18 @@ footer {
   #Nav ul {
     margin-block: auto;
     font-size: xxx-large;
+    width: 100%;
   }
 
   #Button-heb {
     display: flex;
-    align-items: baseline;
-    max-width: 50%;
-    margin-left: 90%;
+    max-width: 100%;
+    width: 100%;
+    /* margin-left: 90%; */
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: nowrap;
+    margin-left: -2.8%;
   }
 
   /* li {
@@ -720,30 +732,34 @@ footer {
 } */
 
   #one {
-    padding-right: 15%;
     text-decoration: none;
     color: #0065fc;
-    padding-left: 15%;
-    padding-top: 20%;
+    /* padding-left: 15%; */
+    padding-bottom: 4%;
     border-bottom: #f2f2f2 10px solid;
+    width: 20%;
+    padding-right: 25%;
   }
 
   #one:hover {
     border-bottom: 10px solid #0065fc;
+    border-top: none;
   }
 
   #two {
     text-decoration: none;
     color: black;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 20%;
+    /* padding-left: 15%; */
+    /* padding-right: 15%; */
+    padding-bottom: 4%;
     border-bottom: #f2f2f2 10px solid;
+    width: 20%;
   }
 
   #two:hover {
     border-bottom: 10px solid #0065fc;
-    padding-top: 19%;
+    border-top: none;
+    /* padding-top: 19%; */
   }
 
   #three {
@@ -752,6 +768,7 @@ footer {
     font-weight: bold;
     padding-left: 15%;
     padding-right: 15%;
+    display: none;
   }
 
   #Recherche {
@@ -1371,6 +1388,7 @@ footer {
 
   header {
     max-width: 100%;
+    width: 100%;
     margin-left: 1%;
     margin-right: 1%;
     display: flex;
@@ -1383,12 +1401,16 @@ footer {
     max-width: 100%;
     margin-top: -1.8%;
     margin-bottom: -2%;
-    margin-left: -15%;
+    margin-left: -2%;
   }
 
   #Titre img {
     max-width: 100%;
     padding-top: 15%;
+  }
+
+  #subres {
+    display: none;
   }
 
   /* Menu de navigation */
@@ -1401,15 +1423,18 @@ footer {
   #Nav ul {
     margin-block: auto;
     font-size: xxx-large;
+    width: 100%;
   }
 
   #Button-heb {
     display: flex;
-    align-items: baseline;
-    max-width: 50%;
-    margin-left: 90%;
+    max-width: 100%;
+    width: 100%;
+    /* margin-left: 90%; */
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: nowrap;
+    margin-left: -5%;
   }
 
   /* li {
@@ -1420,30 +1445,35 @@ footer {
 } */
 
   #one {
-    padding-right: 15%;
     text-decoration: none;
     color: #0065fc;
-    padding-left: 15%;
-    padding-top: 20%;
+    /* padding-left: 15%; */
+    padding-bottom: 4%;
     border-bottom: #f2f2f2 10px solid;
+    width: 20%;
+    padding-right: 25%;
   }
 
   #one:hover {
     border-bottom: 10px solid #0065fc;
+    border-top: none;
   }
 
   #two {
     text-decoration: none;
     color: black;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 20%;
+    /* padding-left: 15%; */
+    /* padding-right: 15%; */
+    padding-bottom: 4%;
     border-bottom: #f2f2f2 10px solid;
+    width: 20%;
+    padding-right: 19%;
   }
 
   #two:hover {
     border-bottom: 10px solid #0065fc;
-    padding-top: 19%;
+    border-top: none;
+    /* padding-top: 19%; */
   }
 
   #three {
@@ -1452,6 +1482,7 @@ footer {
     font-weight: bold;
     padding-left: 15%;
     padding-right: 15%;
+    display: none;
   }
 
   #Recherche {
