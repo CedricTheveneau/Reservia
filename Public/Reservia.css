@@ -166,6 +166,10 @@ header {
   border-radius: 0px 10px 10px 0px;
 }
 
+#Bouton-Search-Resp {
+  display: none;
+}
+
 h3 {
   font-weight: bold;
 }
@@ -481,6 +485,24 @@ h3 {
   padding-left: 3%;
   padding-right: 3%;
   max-height: 600px;
+}
+
+#populartitle {
+  display: flex;
+  flex-direction: row;
+}
+
+#popicon {
+  display: flex;
+  width: 20%;
+  align-content: center;
+  justify-content: center;
+}
+
+.fa-chart-line {
+  font-size: x-large;
+  padding-top: 65%;
+  padding-left: 200%;
 }
 
 #pops {
@@ -833,17 +855,26 @@ footer {
   }
 
   #Bouton-Search {
+    display: none;
+  }
+
+  #Bouton-Search-Resp {
+    display: block;
     max-height: 9em;
-    width: 9em;
+    width: 5em;
     background-color: #0065fc;
     color: white;
-    font-size: medium;
+    font-size: xx-large;
     font-family: "Raleway";
     font-weight: bold;
     border: 5px #0065fc solid;
     cursor: pointer;
     border-radius: 30%;
     margin-left: -4%;
+  }
+
+  .fa-search {
+    font-size: larger;
   }
 
   h3 {
@@ -1177,6 +1208,24 @@ footer {
     margin-bottom: 4%;
     border-radius: unset;
     max-height: unset;
+  }
+
+  #populartitle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #popicon {
+    display: flex;
+    width: 20%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .fa-chart-line {
+    font-size: xxx-large;
+    margin-top: -22.5%;
+    padding-left: 380%;
   }
 
   #pops {
@@ -1368,6 +1417,8 @@ footer {
   }
 }
 
+/* Responsive iPad*/
+
 @media only screen and (device-width: 768px) {
   /* Infos générales */
 
@@ -1553,17 +1604,26 @@ footer {
   }
 
   #Bouton-Search {
+    display: none;
+  }
+
+  #Bouton-Search-Resp {
+    display: block;
     max-height: 9em;
-    width: 9em;
+    width: 5em;
     background-color: #0065fc;
     color: white;
-    font-size: medium;
+    font-size: xx-large;
     font-family: "Raleway";
     font-weight: bold;
     border: 5px #0065fc solid;
     cursor: pointer;
     border-radius: 30%;
     margin-left: -4%;
+  }
+
+  .fa-search {
+    font-size: larger;
   }
 
   h3 {
@@ -1897,6 +1957,24 @@ footer {
     margin-bottom: 4%;
     border-radius: unset;
     max-height: unset;
+  }
+
+  #populartitle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #popicon {
+    display: flex;
+    width: 20%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .fa-chart-line {
+    font-size: xxx-large;
+    margin-top: -22.5%;
+    padding-left: 380%;
   }
 
   #pops {
