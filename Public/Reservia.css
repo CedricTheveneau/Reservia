@@ -670,7 +670,7 @@ footer {
 
 /* Responsive iPhone 8 */
 
-@media only screen and (device-width: 375px) {
+@media screen and (max-width: 375px) {
   /* Infos générales */
 
   body {
@@ -724,7 +724,7 @@ footer {
     text-decoration: none;
     color: #0065fc;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Menu de navigation */
@@ -736,7 +736,7 @@ footer {
 
   #Nav ul {
     margin-block: auto;
-    font-size: xxx-large;
+    font-size: 3em;
     width: 100%;
   }
 
@@ -804,7 +804,7 @@ footer {
 
   #slogan {
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #pslogan {
@@ -835,13 +835,13 @@ footer {
 
   .fa-map-marker-alt {
     color: black;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Marseille {
     border: 2px solid #f2f2f2;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
     font-family: "Raleway";
     width: 13em;
     height: 3em;
@@ -878,7 +878,7 @@ footer {
 
   h3 {
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Filtres */
@@ -918,7 +918,7 @@ footer {
 
   .fa-money-bill-wave {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Economique {
@@ -941,7 +941,7 @@ footer {
 
   #eco {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Familial */
@@ -962,7 +962,7 @@ footer {
 
   .fa-child {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Familial {
@@ -982,7 +982,7 @@ footer {
 
   #pfam {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Romantique */
@@ -1003,7 +1003,7 @@ footer {
 
   .fa-heart {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Romantique {
@@ -1023,7 +1023,7 @@ footer {
 
   #prom {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Animaux */
@@ -1044,7 +1044,7 @@ footer {
 
   .fa-dog {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Animaux {
@@ -1064,7 +1064,7 @@ footer {
 
   #pani {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Nombres résultats */
@@ -1114,7 +1114,7 @@ footer {
 
   .fa-star {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Hébergement */
@@ -1129,7 +1129,7 @@ footer {
   }
 
   #hebtitle {
-    font-size: xxx-large;
+    font-size: 3em;
     padding-top: 3%;
     margin-left: 1.7%;
   }
@@ -1166,12 +1166,12 @@ footer {
   }
 
   .cardhebtitle {
-    font-size: xxx-large;
+    font-size: 3em;
     padding-top: 4.5%;
   }
 
   .hebp {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-top: -4%;
   }
 
@@ -1195,7 +1195,7 @@ footer {
 
   #affp {
     margin-top: 1%;
-    font-size: xxx-large;
+    font-size: 3em;
     margin-left: 1.7%;
   }
 
@@ -1222,14 +1222,14 @@ footer {
   }
 
   .fa-chart-line {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-top: -22.5%;
     padding-left: 380%;
   }
 
   #pops {
     margin-top: 8%;
-    font-size: xxx-large;
+    font-size: 3em;
     padding-left: 17px;
   }
 
@@ -1239,12 +1239,12 @@ footer {
   }
 
   .poptitles {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: -4%;
   }
 
   .popularp {
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   .poprat {
@@ -1311,7 +1311,7 @@ footer {
   }
 
   #atitle {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: 8%;
   }
 
@@ -1340,7 +1340,7 @@ footer {
   .acttitles {
     padding-top: 5.5%;
     padding-left: 8%;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   .actimgl {
@@ -1385,7 +1385,7 @@ footer {
   }
 
   .footer-titles {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: 9.5%;
   }
 
@@ -1418,7 +1418,7 @@ footer {
 
 /* Responsive iPad*/
 
-@media only screen and (device-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Infos générales */
 
   body {
@@ -1472,7 +1472,7 @@ footer {
     text-decoration: none;
     color: #0065fc;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Menu de navigation */
@@ -1484,7 +1484,7 @@ footer {
 
   #Nav ul {
     margin-block: auto;
-    font-size: xxx-large;
+    font-size: 3em;
     width: 100%;
   }
 
@@ -1553,7 +1553,7 @@ footer {
 
   #slogan {
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #pslogan {
@@ -1584,13 +1584,13 @@ footer {
 
   .fa-map-marker-alt {
     color: black;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Marseille {
     border: 2px solid #f2f2f2;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
     font-family: "Raleway";
     width: 13em;
     height: 3em;
@@ -1627,7 +1627,7 @@ footer {
 
   h3 {
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Filtres */
@@ -1667,7 +1667,7 @@ footer {
 
   .fa-money-bill-wave {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Economique {
@@ -1690,7 +1690,7 @@ footer {
 
   #eco {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Familial */
@@ -1711,7 +1711,7 @@ footer {
 
   .fa-child {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Familial {
@@ -1731,7 +1731,7 @@ footer {
 
   #pfam {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Romantique */
@@ -1752,7 +1752,7 @@ footer {
 
   .fa-heart {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Romantique {
@@ -1772,7 +1772,7 @@ footer {
 
   #prom {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Animaux */
@@ -1793,7 +1793,7 @@ footer {
 
   .fa-dog {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   #Animaux {
@@ -1813,7 +1813,7 @@ footer {
 
   #pani {
     margin: auto;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Nombres résultats */
@@ -1863,7 +1863,7 @@ footer {
 
   .fa-star {
     color: #0065fc;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   /* Hébergement */
@@ -1878,7 +1878,7 @@ footer {
   }
 
   #hebtitle {
-    font-size: xxx-large;
+    font-size: 3em;
     padding-top: 3%;
     margin-left: 1.7%;
   }
@@ -1915,12 +1915,12 @@ footer {
   }
 
   .cardhebtitle {
-    font-size: xxx-large;
+    font-size: 3em;
     padding-top: 4.5%;
   }
 
   .hebp {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-top: -4%;
   }
 
@@ -1944,7 +1944,7 @@ footer {
 
   #affp {
     margin-top: 1%;
-    font-size: xxx-large;
+    font-size: 3em;
     margin-left: 1.7%;
   }
 
@@ -1971,14 +1971,14 @@ footer {
   }
 
   .fa-chart-line {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-top: -22.5%;
     padding-left: 380%;
   }
 
   #pops {
     margin-top: 8%;
-    font-size: xxx-large;
+    font-size: 3em;
     padding-left: 17px;
   }
 
@@ -1988,12 +1988,12 @@ footer {
   }
 
   .poptitles {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: -4%;
   }
 
   .popularp {
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   .poprat {
@@ -2060,7 +2060,7 @@ footer {
   }
 
   #atitle {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: 8%;
   }
 
@@ -2089,7 +2089,7 @@ footer {
   .acttitles {
     padding-top: 5.5%;
     padding-left: 8%;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 
   .actimgl {
@@ -2134,7 +2134,7 @@ footer {
   }
 
   .footer-titles {
-    font-size: xxx-large;
+    font-size: 3em;
     margin-bottom: 9.5%;
   }
 
@@ -2161,7 +2161,7 @@ footer {
   .fliens {
     text-decoration: none;
     color: black;
-    font-size: xxx-large;
+    font-size: 3em;
   }
 }
 
