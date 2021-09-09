@@ -11,8 +11,8 @@ body {
 /* Logo */
 
 img {
-  width: 120px;
-  height: 100px;
+  width: 7.5em;
+  height: 6.25em;
 }
 
 /* Header */
@@ -76,7 +76,7 @@ header {
 }
 
 #one:hover {
-  border-top: 3px solid #0065fc;
+  border-top: 0.1875em solid #0065fc;
   padding-top: 18.8%;
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 #two:hover {
-  border-top: 3px solid #0065fc;
+  border-top: 0.1875em solid #0065fc;
   padding-top: 19%;
 }
 
@@ -126,8 +126,8 @@ header {
 #Location-logo {
   background-color: #f2f2f2;
   border-radius: 30% 0% 0% 30%;
-  width: 45px;
-  height: 45px;
+  width: 2.8125em;
+  height: 2.8125em;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -139,11 +139,11 @@ header {
 }
 
 #Marseille {
-  border: 2px solid #f2f2f2;
+  border: 0.125em solid #f2f2f2;
   font-weight: bold;
   font-size: medium;
   font-family: "Raleway";
-  width: 280px;
+  width: 17.5em;
 }
 
 ::placeholder {
@@ -153,16 +153,16 @@ header {
 }
 
 #Bouton-Search {
-  max-height: 45px;
+  max-height: 2.8125em;
   max-width: 100%;
   background-color: #0065fc;
   color: white;
   font-size: medium;
   font-family: "Raleway";
   font-weight: bold;
-  border: 5px #0065fc solid;
+  border: 0.3125em #0065fc solid;
   cursor: pointer;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0em 0.625em 0.625em 0em;
 }
 
 #Bouton-Search-Resp {
@@ -197,8 +197,8 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 2.75em;
+  height: 2.75em;
   display: flex;
   align-items: center;
   margin-top: -1.5%;
@@ -212,10 +212,10 @@ h3 {
 #Economique {
   display: flex;
   font-weight: bold;
-  width: 160px;
-  height: 38px;
-  border: 3px #f2f2f2 solid;
-  border-radius: 50px;
+  width: 10em;
+  height: 2.375em;
+  border: 0.1875em #f2f2f2 solid;
+  border-radius: 3.125em;
   align-content: center;
 }
 
@@ -237,8 +237,8 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 2.75em;
+  height: 2.75em;
   display: flex;
   align-items: center;
   margin-top: -2.3%;
@@ -252,10 +252,10 @@ h3 {
 #Familial {
   display: flex;
   font-weight: bold;
-  width: 130px;
-  height: 38px;
-  border: 3px #f2f2f2 solid;
-  border-radius: 50px;
+  width: 8.125em;
+  height: 2.375em;
+  border: 0.1875em #f2f2f2 solid;
+  border-radius: 3.125em;
   align-content: center;
 }
 
@@ -277,8 +277,8 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 2.75em;
+  height: 2.75em;
   display: flex;
   align-items: center;
   margin-top: -2%;
@@ -292,10 +292,10 @@ h3 {
 #Romantique {
   display: flex;
   font-weight: bold;
-  width: 155px;
-  height: 38px;
-  border: 3px #f2f2f2 solid;
-  border-radius: 50px;
+  width: 9.6875em;
+  height: 2.375em;
+  border: 0.1875em #f2f2f2 solid;
+  border-radius: 3.125em;
   align-content: center;
 }
 
@@ -317,8 +317,8 @@ h3 {
   text-align: center;
   background-color: #deebff;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 2.75em;
+  height: 2.75em;
   display: flex;
   align-items: center;
   margin-top: -1.4%;
@@ -332,10 +332,10 @@ h3 {
 #Animaux {
   display: flex;
   font-weight: bold;
-  width: 200px;
-  height: 38px;
-  border: 3px #f2f2f2 solid;
-  border-radius: 50px;
+  width: 12.5em;
+  height: 2.375em;
+  border: 0.1875em #f2f2f2 solid;
+  border-radius: 3.125em;
   align-content: center;
 }
 
@@ -354,10 +354,10 @@ h3 {
 #nbr-icon {
   display: flex;
   align-items: center;
-  border: 1px #f2f2f2 solid;
+  border: 0.0625em #f2f2f2 solid;
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  width: 0.9375em;
+  height: 0.9375em;
   align-content: center;
   justify-content: center;
   text-align: center;
@@ -395,18 +395,18 @@ h3 {
 
 .fa-star {
   color: #0065fc;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 /* Hébergement */
 
 #Hébergement {
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 1.25em;
   max-width: 60%;
   padding-left: 3%;
   padding-right: 3%;
-  max-height: 600px;
+  max-height: 37.5em;
 }
 
 #hebtitle {
@@ -422,13 +422,13 @@ h3 {
 }
 
 .imgheb {
-  width: 235px;
-  height: 110px;
+  width: 14.6875em;
+  height: 6.875em;
   object-fit: cover;
-  border: 5px solid white;
-  border-bottom: 80px solid white;
+  border: 0.3125em solid white;
+  border-bottom: 5em solid white;
   border-radius: 10%;
-  box-shadow: lightgrey 5px 5px 15px;
+  box-shadow: lightgrey 0.3125em 0.3125em 0.9375em;
 }
 
 .bannerheb {
@@ -437,13 +437,13 @@ h3 {
   border-radius: 0% 0% 10% 10%;
   cursor: pointer;
   width: 94%;
-  margin-left: 4.5px;
-  margin-right: 5px;
-  padding-left: 8px;
+  margin-left: 0.28125em;
+  margin-right: 0.3125em;
+  padding-left: 0.5em;
 }
 
 .cardhebtitle {
-  font-size: 15px;
+  font-size: 0.9375em;
   padding-top: 6.5%;
 }
 
@@ -479,11 +479,11 @@ h3 {
 
 #Populaires {
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 1.25em;
   width: 25%;
   padding-left: 3%;
   padding-right: 3%;
-  max-height: 600px;
+  max-height: 37.5em;
 }
 
 #populartitle {
@@ -527,22 +527,22 @@ h3 {
 }
 
 .popimg {
-  width: 120px;
-  height: 120px;
+  width: 7.5em;
+  height: 7.5em;
   object-fit: cover;
-  border: 5px solid white;
-  border-right: 215px solid white;
+  border: 0.3125em solid white;
+  border-right: 13.4375em solid white;
   border-radius: 5%/15%;
-  box-shadow: 5px 5px 15px lightgrey;
+  box-shadow: 0.3125em 0.3125em 0.9375em lightgrey;
 }
 
 #bleublancimg {
-  width: 120px;
-  height: 120px;
-  border: 5px solid white;
-  border-right: 215px solid white;
+  width: 7.5em;
+  height: 7.5em;
+  border: 0.3125em solid white;
+  border-right: 13.4375em solid white;
   border-radius: 5%/15%;
-  box-shadow: 5px 5px 15px lightgrey;
+  box-shadow: 0.3125em 0.3125em 0.9375em lightgrey;
 }
 
 .popp {
@@ -578,7 +578,7 @@ h3 {
   margin-right: 4.5%;
   margin-top: 4%;
   margin-bottom: 2%;
-  height: 550px;
+  height: 34.375em;
 }
 
 #Cartes-Activités {
@@ -608,30 +608,30 @@ h3 {
 }
 
 .actimgl {
-  width: 310px;
-  height: 390px;
+  width: 19.375em;
+  height: 24.375em;
   object-fit: cover;
-  border-bottom: 60px solid white;
+  border-bottom: 3.75em solid white;
   border-radius: 10%/7.5%;
-  box-shadow: lightgrey 5px 5px 15px;
+  box-shadow: lightgrey 0.3125em 0.3125em 0.9375em;
 }
 
 .actimgm {
-  width: 310px;
-  height: 180px;
+  width: 19.375em;
+  height: 11.25em;
   object-fit: cover;
   border-radius: 10%/12.3%;
-  border-bottom: 60px solid white;
-  box-shadow: lightgrey 5px 5px 15px;
+  border-bottom: 3.75em solid white;
+  box-shadow: lightgrey 0.3125em 0.3125em 0.9375em;
 }
 
 .actimgs {
-  width: 310px;
-  height: 100px;
+  width: 19.375em;
+  height: 6.25em;
   object-fit: cover;
   border-radius: 10%/19.8%;
-  border-bottom: 60px solid white;
-  box-shadow: lightgrey 5px 5px 15px;
+  border-bottom: 3.75em solid white;
+  box-shadow: lightgrey 0.3125em 0.3125em 0.9375em;
 }
 
 /* Footer */
@@ -670,7 +670,7 @@ footer {
 
 /* Responsive iPhone 8 */
 
-@media screen and (max-width: 375px) {
+@media only screen and (device-width: 375px) {
   /* Infos générales */
 
   body {
@@ -688,8 +688,8 @@ footer {
   /* Logo */
 
   img {
-    width: 400px;
-    height: 150px;
+    width: 25em;
+    height: 9.375em;
   }
 
   /* Header */
@@ -763,13 +763,13 @@ footer {
     color: #0065fc;
     /* padding-left: 15%; */
     padding-bottom: 4%;
-    border-bottom: #f2f2f2 10px solid;
+    border-bottom: #f2f2f2 0.2em solid;
     width: 20%;
     padding-right: 25%;
   }
 
   #one:hover {
-    border-bottom: 10px solid #0065fc;
+    border-bottom: 0.2em solid #0065fc;
     border-top: none;
   }
 
@@ -779,12 +779,12 @@ footer {
     /* padding-left: 15%; */
     /* padding-right: 15%; */
     padding-bottom: 4%;
-    border-bottom: #f2f2f2 10px solid;
+    border-bottom: #f2f2f2 0.2em solid;
     width: 20%;
   }
 
   #two:hover {
-    border-bottom: 10px solid #0065fc;
+    border-bottom: 0.2em solid #0065fc;
     border-top: none;
     /* padding-top: 19%; */
   }
@@ -839,7 +839,7 @@ footer {
   }
 
   #Marseille {
-    border: 2px solid #f2f2f2;
+    border: 0.125em solid #f2f2f2;
     font-weight: bold;
     font-size: 3em;
     font-family: "Raleway";
@@ -866,7 +866,7 @@ footer {
     font-size: xx-large;
     font-family: "Raleway";
     font-weight: bold;
-    border: 5px #0065fc solid;
+    border: 0.3125em #0065fc solid;
     cursor: pointer;
     border-radius: 30%;
     margin-left: -4%;
@@ -908,8 +908,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.7%;
@@ -924,10 +924,10 @@ footer {
   #Economique {
     display: flex;
     font-weight: bold;
-    width: 450px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 28.125em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
     /* Décalage pour placer Filtres */
     margin-top: 45%;
@@ -952,8 +952,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.8%;
@@ -968,10 +968,10 @@ footer {
   #Familial {
     display: flex;
     font-weight: bold;
-    width: 350px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 21.875em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -993,8 +993,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.5%;
@@ -1009,10 +1009,10 @@ footer {
   #Romantique {
     display: flex;
     font-weight: bold;
-    width: 450px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 28.125em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -1034,8 +1034,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.8%;
@@ -1050,10 +1050,10 @@ footer {
   #Animaux {
     display: flex;
     font-weight: bold;
-    width: 600px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 37.5em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -1072,10 +1072,10 @@ footer {
   #nbr-icon {
     display: flex;
     align-items: center;
-    border: 1px #f2f2f2 solid;
+    border: 0.0625em #f2f2f2 solid;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3.125em;
+    height: 3.125em;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -1151,7 +1151,7 @@ footer {
     border: 0.9em solid white;
     border-bottom: 16em solid white;
     border-radius: 8%/11%;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .bannerheb {
@@ -1161,8 +1161,8 @@ footer {
     cursor: pointer;
     width: 94%;
     margin-left: 3%;
-    margin-right: 5px;
-    padding-left: 8px;
+    margin-right: 0.3125em;
+    padding-left: 0.5em;
   }
 
   .cardhebtitle {
@@ -1212,6 +1212,7 @@ footer {
   #populartitle {
     display: flex;
     flex-direction: row;
+    margin-left: -3%;
   }
 
   #popicon {
@@ -1224,13 +1225,13 @@ footer {
   .fa-chart-line {
     font-size: 3em;
     margin-top: -22.5%;
-    padding-left: 380%;
+    padding-left: 360%;
   }
 
   #pops {
     margin-top: 8%;
     font-size: 3em;
-    padding-left: 17px;
+    padding-left: 1.0625em;
   }
 
   #Cartes-Populaires {
@@ -1258,8 +1259,8 @@ footer {
     border: 0.9em solid white;
     border-right: 34.6em solid white;
     border-radius: 8%/18%;
-    box-shadow: lightgrey 10px 10px 35px;
-    margin-left: 17px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
+    margin-left: 1.0625em;
   }
 
   #bleublancimg {
@@ -1269,8 +1270,8 @@ footer {
     border: 0.9em solid white;
     border-right: 34.6em solid white;
     border-radius: 8%/18%;
-    box-shadow: lightgrey 10px 10px 35px;
-    margin-left: 17px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
+    margin-left: 1.0625em;
   }
 
   .popp {
@@ -1349,7 +1350,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .actimgm {
@@ -1358,7 +1359,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .actimgs {
@@ -1367,7 +1368,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   /* Footer */
@@ -1418,7 +1419,7 @@ footer {
 
 /* Responsive iPad*/
 
-@media screen and (max-width: 768px) {
+@media only screen and (device-width: 768px) {
   /* Infos générales */
 
   body {
@@ -1436,8 +1437,8 @@ footer {
   /* Logo */
 
   img {
-    width: 400px;
-    height: 150px;
+    width: 25em;
+    height: 9.375em;
   }
 
   /* Header */
@@ -1511,13 +1512,13 @@ footer {
     color: #0065fc;
     /* padding-left: 15%; */
     padding-bottom: 4%;
-    border-bottom: #f2f2f2 10px solid;
+    border-bottom: #f2f2f2 0.2em solid;
     width: 20%;
     padding-right: 25%;
   }
 
   #one:hover {
-    border-bottom: 10px solid #0065fc;
+    border-bottom: 0.2em solid #0065fc;
     border-top: none;
   }
 
@@ -1527,13 +1528,13 @@ footer {
     /* padding-left: 15%; */
     /* padding-right: 15%; */
     padding-bottom: 4%;
-    border-bottom: #f2f2f2 10px solid;
+    border-bottom: #f2f2f2 0.2em solid;
     width: 20%;
     padding-right: 19%;
   }
 
   #two:hover {
-    border-bottom: 10px solid #0065fc;
+    border-bottom: 0.2em solid #0065fc;
     border-top: none;
     /* padding-top: 19%; */
   }
@@ -1588,7 +1589,7 @@ footer {
   }
 
   #Marseille {
-    border: 2px solid #f2f2f2;
+    border: 0.125em solid #f2f2f2;
     font-weight: bold;
     font-size: 3em;
     font-family: "Raleway";
@@ -1615,7 +1616,7 @@ footer {
     font-size: xx-large;
     font-family: "Raleway";
     font-weight: bold;
-    border: 5px #0065fc solid;
+    border: 0.3125em #0065fc solid;
     cursor: pointer;
     border-radius: 30%;
     margin-left: -4%;
@@ -1657,8 +1658,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.7%;
@@ -1673,10 +1674,10 @@ footer {
   #Economique {
     display: flex;
     font-weight: bold;
-    width: 450px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 28.125em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
     /* Décalage pour placer Filtres */
     margin-top: 45%;
@@ -1701,8 +1702,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.8%;
@@ -1717,10 +1718,10 @@ footer {
   #Familial {
     display: flex;
     font-weight: bold;
-    width: 350px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 21.875em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -1742,8 +1743,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.5%;
@@ -1758,10 +1759,10 @@ footer {
   #Romantique {
     display: flex;
     font-weight: bold;
-    width: 450px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 28.125em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -1783,8 +1784,8 @@ footer {
     text-align: center;
     background-color: #deebff;
     border-radius: 50%;
-    width: 106px;
-    height: 106px;
+    width: 6.625em;
+    height: 6.625em;
     display: flex;
     align-items: center;
     margin-top: -0.8%;
@@ -1799,10 +1800,10 @@ footer {
   #Animaux {
     display: flex;
     font-weight: bold;
-    width: 600px;
-    height: 100px;
-    border: 6px #f2f2f2 solid;
-    border-radius: 50px;
+    width: 37.5em;
+    height: 6.25em;
+    border: 0.375em #f2f2f2 solid;
+    border-radius: 3.125em;
     align-content: center;
   }
 
@@ -1821,10 +1822,10 @@ footer {
   #nbr-icon {
     display: flex;
     align-items: center;
-    border: 1px #f2f2f2 solid;
+    border: 0.0625em #f2f2f2 solid;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3.125em;
+    height: 3.125em;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -1900,7 +1901,7 @@ footer {
     border: 0.9em solid white;
     border-bottom: 16em solid white;
     border-radius: 8%/11%;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .bannerheb {
@@ -1910,8 +1911,8 @@ footer {
     cursor: pointer;
     width: 94%;
     margin-left: 3%;
-    margin-right: 5px;
-    padding-left: 8px;
+    margin-right: 0.3125em;
+    padding-left: 0.5em;
   }
 
   .cardhebtitle {
@@ -1961,6 +1962,7 @@ footer {
   #populartitle {
     display: flex;
     flex-direction: row;
+    margin-left: -3%;
   }
 
   #popicon {
@@ -1973,13 +1975,13 @@ footer {
   .fa-chart-line {
     font-size: 3em;
     margin-top: -22.5%;
-    padding-left: 380%;
+    padding-left: 360%;
   }
 
   #pops {
     margin-top: 8%;
     font-size: 3em;
-    padding-left: 17px;
+    padding-left: 1.0625em;
   }
 
   #Cartes-Populaires {
@@ -2007,8 +2009,8 @@ footer {
     border: 0.9em solid white;
     border-right: 34.6em solid white;
     border-radius: 8%/18%;
-    box-shadow: lightgrey 10px 10px 35px;
-    margin-left: 17px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
+    margin-left: 1.0625em;
   }
 
   #bleublancimg {
@@ -2018,8 +2020,8 @@ footer {
     border: 0.9em solid white;
     border-right: 34.6em solid white;
     border-radius: 8%/18%;
-    box-shadow: lightgrey 10px 10px 35px;
-    margin-left: 17px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
+    margin-left: 1.0625em;
   }
 
   .popp {
@@ -2098,7 +2100,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .actimgm {
@@ -2107,7 +2109,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   .actimgs {
@@ -2116,7 +2118,7 @@ footer {
     object-fit: cover;
     border-radius: 8%/15%;
     border-bottom: 10em solid white;
-    box-shadow: lightgrey 10px 10px 35px;
+    box-shadow: lightgrey 0.625em 0.625em 2.1875em;
   }
 
   /* Footer */
