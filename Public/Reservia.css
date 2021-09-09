@@ -11,7 +11,7 @@ body {
 /* Logo */
 
 img {
-  width: 160px;
+  width: 120px;
   height: 100px;
 }
 
@@ -34,7 +34,6 @@ header {
 }
 
 #Titre img {
-  max-width: 80%;
   padding-top: 15%;
 }
 
