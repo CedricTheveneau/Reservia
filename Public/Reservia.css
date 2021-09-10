@@ -1448,7 +1448,6 @@
     max-width: 100%;
     width: 100%;
     margin-left: 1%;
-    margin-right: 1%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1485,7 +1484,7 @@
   }
 
   #Nav ul {
-    margin-block: auto;
+    margin-block: unset;
     font-size: 3em;
     width: 100%;
   }
@@ -1494,11 +1493,11 @@
     display: flex;
     max-width: 100%;
     width: 100%;
-    /* margin-left: 90%; */
+    margin-left: -2%;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: nowrap;
-    margin-left: -5%;
+    margin-top: 10%;
+    justify-content: space-around;
   }
 
   /* li {
@@ -1511,11 +1510,11 @@
   #one {
     text-decoration: none;
     color: #0065fc;
-    /* padding-left: 15%; */
+    padding-left: 10%;
     padding-bottom: 4%;
     border-bottom: #f2f2f2 0.2em solid;
-    width: 20%;
-    padding-right: 25%;
+    width: 50%;
+    padding-right: 10%;
   }
 
   #one:hover {
@@ -1526,12 +1525,12 @@
   #two {
     text-decoration: none;
     color: black;
-    /* padding-left: 15%; */
+    padding-left: 15%;
     /* padding-right: 15%; */
     padding-bottom: 4%;
     border-bottom: #f2f2f2 0.2em solid;
-    width: 20%;
-    padding-right: 19%;
+    width: 50%;
+    padding-right: 16%;
   }
 
   #two:hover {
@@ -1551,11 +1550,13 @@
 
   #Recherche {
     width: 100%;
+    margin-left: 10%;
   }
 
   #slogan {
     font-weight: bold;
     font-size: 3em;
+    margin-top: 8%;
   }
 
   #pslogan {
@@ -1571,6 +1572,7 @@
     width: 100%;
     justify-content: center;
     max-width: 100%;
+    margin-left: -2.5%;
   }
 
   #Location-logo {
@@ -1873,8 +1875,7 @@
   #Hébergement {
     max-width: 100%;
     width: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2.6%;
     background: none;
     max-height: unset;
   }
@@ -1958,12 +1959,14 @@
     margin-bottom: 4%;
     border-radius: unset;
     max-height: unset;
+    margin-left: 0.6%;
+    padding-right: 3.9%;
   }
 
   #populartitle {
     display: flex;
     flex-direction: row;
-    margin-left: -3%;
+    margin-left: -1%;
   }
 
   #popicon {
@@ -1975,8 +1978,8 @@
 
   .fa-chart-line {
     font-size: 3em;
-    margin-top: -22.5%;
-    padding-left: 360%;
+    margin-top: 40.5%;
+    padding-left: 370%;
   }
 
   #pops {
@@ -1988,6 +1991,7 @@
   #Cartes-Populaires {
     display: flex;
     flex-direction: column;
+    margin-left: 1.8%;
   }
 
   .poptitles {
@@ -2059,7 +2063,7 @@
     margin-bottom: 2%;
     width: 100%;
     height: unset;
-    margin-left: 14%;
+    margin-left: 8.8%;
   }
 
   #atitle {
