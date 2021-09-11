@@ -2645,7 +2645,6 @@
   }
 
   #affp {
-    margin-top: 0%;
     padding-top: 3%;
     padding-bottom: 4%;
   }
@@ -2658,7 +2657,7 @@
     width: 30%;
     padding-left: 3%;
     padding-right: 3%;
-    max-height: max-content;
+    max-height: unset;
   }
 
   #populartitle {
